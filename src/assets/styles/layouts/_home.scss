@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: $font-family-sans-serif;
+  background-color: $cv-bg;
+  color: $cv-corporate;
+}
+
+.cv-logo {
+  float: right;
+  margin-bottom: 20px;
+  width: 20%;
+  height: auto;
+}
+
+.cv-title {
+  font-family: $font-family-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: $cv-corporate;
+  text-align: center;
+  padding-top: 30px;
+}
+
+header address {
+  float: left;
+}
+
+
+.fas {
+  margin-right: 15px
+}
+
+
+/*Estilos  Responsive*/
+* {
+  box-sizing: border-box;
+}
+
+.cv-nav {
+  clear: both;
+  float: left;
+  width: 20%;
+  padding-top: 10px;
+}
+
+.cv-nav ul li {
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+
+.cv-nav ul li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.cv-nav ul li a:hover {
+  background-color: $cv-secondcolor;
+  color: white;
+}
+
+
+main {
+  border-top: 3px solid $cv-secondcolor;
+  float: left;
+  width: 80%;
+  padding: 0 10px;
+}
+
+footer {
+  clear: both;
+  background-color: $cv-secondcolor;
+  border-radius: 20px;
+  color: #FFFFFF;
+  height: 100px;
+
+}
+
+footer p {
+  text-align: center;
+  padding-top: 5px;
+
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: $cv-secondcolor;
+  color: white;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #FFFFFF;
+}
+
+@media only screen and (max-width:620px) {
+
+  /* For mobile phones: */
+  .cv-nav,
+  .main,
+  footer {
+    width: 100%;
+  }
+
+
+
+  .cv-logo {
+    width: 30%;
+    height: auto;
+  }
+
+}
