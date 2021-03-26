@@ -10,6 +10,7 @@ sans-serif,
 "Apple Color Emoji",
 "Segoe UI Emoji",
 "Segoe UI Symbol";
+
 $font-family-serif: "Georgia",
 "Times New Roman",
 serif;
@@ -18,3 +19,5 @@ $cv-corporate: #4d4c4c;
 $cv-masterbrand: #f1bfe7;
 $cv-bg: color.scale($cv-masterbrand, $lightness: 70%);
 $cv-secondcolor: #5e4a5a;
+$cv-header: color.saturation($cv-secondcolor);
+$table-even:#fff;
